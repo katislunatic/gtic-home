@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gorilla Tag Intermediate COMP</title>
+    <link rel="icon" type="image/x-icon" href="gtic.png">
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #000; }
+        
+        /* Your custom navigation bar */
+        .navbar {
+            height: 50px;
+            background: #1a1a1a;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        /* The iframe sits below the navbar */
+        iframe {
+            width: 100%;
+            height: calc(100vh - 50px); /* Subtracts the navbar height */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="ccs.html">CCS</a> 
+    </div>
+
+    <iframe src="https://gtic.lovable.app/color-selector"></iframe>
+
+</body>
+</html>
